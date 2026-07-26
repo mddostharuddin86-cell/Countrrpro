@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.ReelCounter" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#784BA0</item>
+        <item name="colorPrimaryDark">#5A3680</item>
+        <item name="colorAccent">#22D1B0</item>
+    </style>
+</resources>
