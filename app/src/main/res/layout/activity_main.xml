@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F3FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reel Counter 🎬"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#242640"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reels aur Shorts ka count, screen ke upar emoji me"
+        android:textSize="14sp"
+        android:textColor="#6B7080"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/countText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aaj ka count: 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#784BA0"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btnOverlayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Overlay permission on karo"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Accessibility service on karo"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnShowBubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Bubble abhi dikhao"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aaj ka count reset karo"/>
+
+</LinearLayout>
