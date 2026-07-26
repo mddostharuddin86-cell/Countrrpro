@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reel Counter</string>
+    <string name="accessibility_service_description">Instagram Reels aur YouTube Shorts scroll count karne ke liye zaroori hai. Ye service sirf scroll events dekhti hai, koi personal data collect nahi karti.</string>
+</resources>
